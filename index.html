@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7f16b116ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p><span>AI/Data</span> Engineer</p>
+            <h1>Hi, I'm  <span>Vinit</span> Shetty <br> From Australia</h1>
+        </div>
+    </div>
+</div> 
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p>A dedicated AI professional, expertise encompasses operational domains, software development, testing, and deployment. Holding a Master's degree in Applied Artificial Intelligence, the focus has been on Data Wrangling and Machine Learning. Proficiency in Python, SQL, and Tableau enables efficient data analysis and visualization, resulting in the presentation of vital actionable insights for informed business decision-making.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>AI Engineer</span><br>AI Solutions Developer</li>
+                        <li><span>Data Scientist</span><br>ML Algorithms Specialist</li>
+                        <li><span>Data Analyst</span><br>Dynamic Visual Storyteller</li>
+                        <li><span>ICT Business Analyst</span><br>Insights-driven Problem Solver</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Customer Service- Probe CX Ltd</li>
+                        <li><span>2022-2023</span><br>Lead Data Scientist - Chameleon - Deakin University</li>
+                        <li><span>2018-2021</span><br>Application Specialist - Thirdware Solutions Ltd</li>
+                        <li><span>2017-2018</span><br>Manufacturing Engineer - HR Industry</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-Present</span><br>Master's Degree from Deakin University</li>
+                        <li><span>2020</span><br>Master's Program from GreyAtom</li>
+                        <li><span>2013-2017</span><br>B.Tech from Mumbai University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div id="services">
+    <div class="container">
+        <h1 class = "sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analyst</h2>
+                <p>Experienced Data Analyst skilled in data analysis, statistical modeling, and visualization. Expert in data cleansing, preprocessing, and exploratory analysis to uncover hidden patterns. Utilizes predictive analytics, A/B testing, and customer segmentation to drive data-driven decision-making for improved business performance. Implements advanced techniques for actionable insights and performance optimization.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2>Business Analyst</h2>
+                <p>Experienced Business Analyst specializing in decision-making, operational efficiency, requirements analysis, process improvement and data-driven insights. Proficient in project and stakeholder management, user acceptance testing, and strategic recommendations. With a strong business acumen and attention to detail, I excel in identifying gaps, mitigating risks, and implementing effective solutions that drive business success.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-atom"></i>
+                <h2>Data Science</h2>
+                <p>Experienced Data Scientist skilled in statistical analysis, machine learning, and predictive modeling for complex data insights. Proficient in data preprocessing, feature engineering, and algorithm development. Expert in data visualization and storytelling to create compelling narratives. Utilizes data science techniques for exploratory analysis, predictive analytics, and optimization, driving innovation and measurable business outcomes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Melbourne Open Data</h3>
+                    <p> Published Use Case for City of Melbourne Open Data Playground</p>
+                    <a href="https://github.com/vinitshetty16/City-of-Melbourne/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Real-Time Vehicle Detection</h3>
+                    <p>Using Azure Custom Vision and Python to Detect Vehicles in Real-Time Video Stream</p>
+                    <a href="https://github.com/vinitshetty16/Custom-Vision"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.png">
+                <div class="layer">
+                    <h3>EV Charging Stations Forecasting</h3>
+                    <p> Deployed Route Optimization ML Algorithms to Forecast the Locations of New EV Charging Stations in Australia</p>
+                    <a href="https://github.com/Chameleon-company/EVCFLO/tree/main/notebooks/T3_2022/Australian_EV_Charging_Stations/Route%20Optimzation"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/vinitshetty16" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vinitshetty31@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+61 480485021</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/vinit-shetty1609"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/vinitshetty16"><i class="fa-brands fa-github"></i></a> 
+                    </div>
+                    <a href="Vinit Shetty Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                        <span id="msg"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxQeBfofgnFUhQyEWnugXShu8ADQqNTBuRzU-x-ReG7CiXGZIcxzFEx8m1Dqjr1WSxx/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent sucessfully"
+            setTimeout(function(){
+            msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
